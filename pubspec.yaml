@@ -1,7 +1,7 @@
 name: gods_eye
-description: A new Flutter package.
-version: 0.0.1
-homepage: https://ajith-m.netlify.app/#/
+description: God’s Eye is used to collect data from your testers before release or your actual users after release. This package is used to implement God's Eye.
+version: 0.0.1+2
+homepage: https://github.com/ajith-m-doodlebug/gods-eye
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

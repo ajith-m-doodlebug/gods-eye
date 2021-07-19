@@ -94,6 +94,7 @@ class GodsEye {
         int oldTime = content1.timeSpend;
         content1.timeSpend = oldTime + 1;
         await setUserData1(one: content1);
+        await checkNewDataToSendData();
       });
     }
 
