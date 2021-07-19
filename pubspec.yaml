@@ -1,0 +1,28 @@
+name: gods_eye
+description: A new Flutter package.
+version: 0.0.1
+homepage: https://ajith-m.netlify.app/#/
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  device_info: ^2.0.2
+  geolocator: ^7.2.0+1
+  http: ^0.13.3
+  time: ^2.0.0
+  workmanager: ^0.4.1
+  shared_preferences: ^2.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
