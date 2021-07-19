@@ -3,7 +3,7 @@
 God’s Eye is used to collect data from your testers before release or your actual users after release.\
 The collected data include Location, Device information, Application Usage, In-App Feedback, etc.
 
-Before using this package, you need to create a account in [God's Eye](). \
+Before using this package, you need to create a account in [God's Eye](https://godseye-doodlebug.netlify.app/#/). \
 To know about the compleate process read this [Medium Blog](https://medium.com/@ajithmanivannan1225/using-gods-eye-in-flutter-c92ffe755ad1).
 
 ## Getting started
@@ -14,7 +14,7 @@ To know about the compleate process read this [Medium Blog](https://medium.com/@
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: "<newest version>"
+  gods_eye: "<newest version>"
 ```
 
 ### Step 2: Import gods_eye.dart
@@ -22,7 +22,7 @@ dependencies:
 ```
 import 'package:gods_eye/gods_eye.dart';
 ```
-Network permission must be added for Android and IOS.
+Network permission must be added for Android and IOS.\
 Location permission for Android and IOS must be added to access the location.
 
 ### Step 3: Make a function
